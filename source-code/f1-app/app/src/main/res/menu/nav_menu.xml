@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/information_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/info_subtitle"
+            android:title="Information">
+            <menu>
+                <item
+                    android:title="Next Session"
+                    android:id="@+id/next_session"
+                    android:checked="true"/>
+                <item
+                    android:title="Calendar"
+                    android:id="@+id/calendar"/>
+                <item
+                    android:title="Standings"
+                    android:id="@+id/standings"/>
+            </menu>
+        </item>
+    </group>
+<!--    <group-->
+<!--        android:id="@+id/play_group"-->
+<!--        android:checkableBehavior="single">-->
+<!--        <item-->
+<!--            android:id="@+id/play_subtitle"-->
+<!--            android:title="F1 Manager">-->
+<!--            <menu>-->
+<!--                <item android:title="Play" android:id="@+id/play"/>-->
+<!--                <item android:title="Profile" android:id="@+id/profile"/>-->
+<!--            </menu>-->
+
+<!--        </item>-->
+<!--    </group>-->
+</menu>

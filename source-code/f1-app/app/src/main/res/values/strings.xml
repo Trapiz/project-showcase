@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">F1 Dashboard</string>
+
+    <string name="openNavDrawer">Navigation Drawer Open</string>
+    <string name="closeNavDrawer">Navigation Drawer Close</string>
+    <string name="title_activity_next_session">next_session</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="standings">
+        <item id="0">Driver</item>
+        <item id="1">Constructor</item>
+    </string-array>
+
+
+</resources>

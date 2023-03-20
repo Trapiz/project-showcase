@@ -1,0 +1,12 @@
+[package]
+name = "solution1"
+version = "0.1.0"
+authors = ["Frank van Viegen <frank@paiq.nl>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+minifb = "0.19"
+lodepng = "3.2"
+rgb = "0.8"
