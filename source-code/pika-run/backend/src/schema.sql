@@ -3,7 +3,7 @@ create table if not exists players(
   name text not null unique
 );
 
-insert or replace into players(id, name) values(1, 'Sander');
+-- insert or replace into players(id, name) values(1, 'Sander');
 
 create table if not exists games(
 	id integer primary key,
@@ -12,11 +12,11 @@ create table if not exists games(
 	time int not null
 );
 
-insert or replace into games(id, playerId, points, time) values(1, 1, 5000, 50);
-insert or replace into games(id, playerId, points, time) values(2, 1, 8000, 60);
-insert or replace into games(id, playerId, points, time) values(3, 1, 7000, 40);
-insert or replace into games(id, playerId, points, time) values(4, 1, 12000, 65);
-insert or replace into games(id, playerId, points, time) values(5, 1, 18000, 60);
+-- insert or replace into games(id, playerId, points, time) values(1, 1, 5000, 50);
+-- insert or replace into games(id, playerId, points, time) values(2, 1, 8000, 60);
+-- insert or replace into games(id, playerId, points, time) values(3, 1, 7000, 40);
+-- insert or replace into games(id, playerId, points, time) values(4, 1, 12000, 65);
+-- insert or replace into games(id, playerId, points, time) values(5, 1, 18000, 60);
 
 create table if not exists trophies(
 	id integer primary key,
@@ -37,5 +37,5 @@ insert or replace into trophies(id, title, description, lockedImage, Image) valu
 insert or replace into trophies(id, title, description, lockedImage, Image) values(2, 'Endurance Warrior', 'Survive for 1 minute', 'https://imgur.com/tE3Qf98.png', 'https://imgur.com/uIkk8me.png');
 insert or replace into trophies(id, title, description, lockedImage, Image) values(3, 'Determined Player', 'Play 5 matches', 'https://imgur.com/tvLqFff.png', 'https://imgur.com/HTifcHT.png');
 
-insert or replace into playerTrophies(playerId, trophyId) values(1, 1);
-insert or replace into playerTrophies(playerId, trophyId) values(1, 2);
+-- insert or replace into playerTrophies(playerId, trophyId) values(1, 1);
+-- insert or replace into playerTrophies(playerId, trophyId) values(1, 2);
